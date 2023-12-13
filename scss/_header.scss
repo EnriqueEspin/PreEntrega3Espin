@@ -1,0 +1,42 @@
+@mixin center {
+  text-align: center;
+}
+
+header {
+  @include center;
+  margin-bottom: 15px;
+}
+
+.navbar-toggler {
+  background-color: $color-blanco;
+}
+
+h1 {
+  color: $color-yellow;
+  font-size: 15px;
+  margin: 5px;
+}
+
+a {
+  color: $color-yellow;
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+/* Lista de navargación redes */
+
+nav ul li {
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+.nav-paginas ul li a {
+  color: $color-blanco;
+  font-size: 25px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid$color-blanco;
+}

@@ -1,0 +1,222 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #272727;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+h1 {
+  color: #CFCF1C;
+  font-size: 15px;
+  margin: 5px;
+}
+
+a {
+  color: #CFCF1C;
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+/* Lista de navargación redes */
+nav ul li {
+  display: inline-block;
+  margin: 5px 15px;
+}
+
+.nav-paginas ul li a {
+  color: #fff;
+  font-size: 25px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #fff;
+}
+
+.main-informacion {
+  display: flex;
+  align-items: center;
+}
+
+.div-presentacion {
+  border: 3px solid #fff;
+  width: 400px;
+  height: 420px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.div-presentacion h2 {
+  margin-top: 7px;
+  color: yellow;
+  font-size: 20px;
+}
+.div-presentacion img {
+  max-width: 100%;
+  height: auto;
+}
+
+.div-informacion {
+  width: 980px;
+  height: auto;
+  margin-left: 40px;
+}
+.div-informacion p {
+  color: aliceblue;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.div-informacion ul li {
+  color: aliceblue;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  list-style: none;
+}
+
+.div-formulario {
+  height: auto;
+  margin: 15px;
+}
+.div-formulario h2 {
+  color: yellow;
+  font-size: 30px;
+  font-weight: bold;
+}
+.div-formulario p {
+  color: #fff;
+}
+.div-formulario hr {
+  margin-top: 15px;
+}
+
+main {
+  background-color: dimgray;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main section {
+  margin: 5px;
+}
+main section div {
+  width: 19rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+main section div img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.main-presentacion {
+  display: flex;
+  align-items: center;
+}
+
+.div-presentacion {
+  /* Para acomodar los elementos de diferentes maneras */
+  display: flex;
+  /* Dirección de los elementos: Vertical - Apilados */
+  flex-direction: column;
+  /* Alinea los elementos en la parte de abajo */
+  justify-content: flex-end;
+  /* Centrar los elementos */
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 5px;
+  margin: 20px 40px;
+  width: 300px;
+  height: 280px;
+}
+.div-presentacion h1 {
+  font-weight: bold;
+  color: yellow;
+  font-size: 35px;
+}
+.div-presentacion img {
+  /* Ajusta el tamaño al div, para que no se extienda más allá del ancho del div */
+  max-width: 100%;
+  /* Para ajustar la altura, para mantener la medida orignal */
+  height: auto;
+  /* Alinear la imagen en la parte de abajo del contenedor div */
+  align-self: flex-end;
+}
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+#galeria img {
+  width: 100%;
+  height: 250px;
+}
+#galeria img:hover {
+  border: 5px solid #b93af8;
+}
+
+.div-informacion {
+  width: 850px;
+  height: auto;
+  font-size: 18px;
+}
+.div-informacion p {
+  color: #fff;
+}
+.div-informacion a {
+  color: #f35e08;
+  text-decoration: underline;
+}
+.div-informacion p {
+  padding-top: 25px;
+}
+
+.div-formulario h2 {
+  color: yellow;
+}
+.div-formulario p {
+  color: #fff;
+}
+
+.div-informacion ul li {
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  background-color: #b93af8;
+}
+
+.footer2 {
+  margin-top: 100px;
+}
+
+.copy {
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+.redes img {
+  height: 50px;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
